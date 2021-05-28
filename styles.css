@@ -92,8 +92,10 @@ body{
     user-select: none
 }
 
-.output .bottom-line{
-    font-size: 0.97rem;
+.bottom-line{
+    font-size: 1rem;
+    position: relative;
+    bottom:525px;
     text-shadow: 1px 0px 1px #474743;
     user-select: none
 }
