@@ -13,6 +13,12 @@ body{
     background: #E8E8E8;
 }
 
+#eq {
+    background-color: #12ABCC;
+}
+#eq:hover {
+    background-color: #52c1da;
+}
 .calculator-grid{
     display: grid;
     justify-content: center;
@@ -24,21 +30,40 @@ body{
 
 .calculator-grid > button{
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 2.2rem;
    /* border: 1px solid #5E5D58; */
-    border-radius: 10%;
+    border: 0px;
+    border-radius: 2em;
     outline: none;
+    text-align: center;
     color: #EFEFEF;
    /* background-color: rgba(255,255,255,.75); */
     background-color: #5E5D58;
+    transition: all 0.2s;
+    margin:0 0.3em 0.3em 0;
+    text-shadow: 0px 0px 10px #474743;
+    box-shadow: 0px 2px 5px grey;
 }
 
+#c-but {
+    text-align: left;
+    padding-left: 35px;
+}
+
+#zero-but {
+    text-align: left;
+    padding-left: 35px;
+}
 .calculator-grid > button:hover{
     background-color: rgba(136, 136, 136, 0.9);
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #474743;
+    box-shadow: 0px 1px 2px grey;
 }
 
 .span-two{
     grid-column: span 2;
+    text-align: left;
 }
 
 .output {
@@ -54,6 +79,7 @@ body{
 
 .output .previous-operand{
     font-size: 1.5rem;
+    color: #5e5e5e;
 }
 
 .output .current-operand{
@@ -61,5 +87,6 @@ body{
 }
 
 .output .bottom-line{
-    font-size: 2.46rem;
+    font-size: 0.97rem;
+    text-shadow: 1px 0px 1px #474743;
 }
