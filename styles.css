@@ -43,6 +43,7 @@ body{
     margin:0 0.3em 0.3em 0;
     text-shadow: 0px 0px 10px #474743;
     box-shadow: 0px 2px 5px grey;
+    user-select: none;
 }
 
 #c-but {
@@ -80,13 +81,16 @@ body{
 .output .previous-operand{
     font-size: 1.5rem;
     color: #5e5e5e;
+    user-select: none
 }
 
 .output .current-operand{
     font-size: 3.5rem;
+    user-select: none
 }
 
 .output .bottom-line{
     font-size: 0.97rem;
     text-shadow: 1px 0px 1px #474743;
+    user-select: none
 }
